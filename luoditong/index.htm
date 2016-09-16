@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width,maximum-scale=1.0, user-scalable=no">
+  <meta name="keywords" content="落地通,酒店预订,旅游度假,景点门票">
+  <meta name="description" content="落地通-景区旅游资源落地平台，服务旅游最后一公里。选择落地通，酒店票务好轻松！">
+  <title>落地通_酒店预订_景点门票_旅游度假</title>
+  <link rel="shortcut icon" href="favicon.ico">
+  <script src="js/jquery.min.js"></script>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<!-- header start -->
+  <!-- loginBar start -->
+  <div class="header">
+    <div class="loginBar flex-b m0">
+      <!-- login start -->
+      <div class="fa">
+        <span>您好，欢迎来到落地通！</span>
+        <a href="login.htm">会员登录</a>
+        <span>|</span>
+        <a href="reg.htm">免费注册</a>
+      </div>
+      <!-- login end -->
+
+      <!-- help start -->
+      <ul class="flex-a">
+        <li><a href="#" target="_blank">帮助中心</a></li>
+        <li><a href="#" target="_blank">联系我们</a></li>
+        <li><a href="#" target="_blank">意见反馈</a></li>
+      </ul>
+      <!-- help end -->
+    </div>
+  </div>
+  <!-- loginBar end -->
+
+  <!-- logoBar start -->
+  <div class="headLogo flex-b m0">
+    <!-- logo start -->
+    <div class="logo fa">
+      <a href="index.htm"><img src="img/logo.png" alt="落地通logo"></a>
+    </div>
+    <!-- logo end -->
+
+    <!-- search start -->
+    <div class="headSearch fa">
+      <div>
+        <span>酒 店</span>
+        <form action="search.htm" method="post" name="searchForm" id="searchForm">
+          <input class="key" type="text" name="key" placeholder="请输入酒店名">
+          <input class="btn" type="submit" name="search" value="搜 索">
+        </form>
+      </div>
+    </div>
+    <!-- search end -->
+
+    <!-- tel start -->
+    <dl>
+      <dt>4000-568-360</dt>
+      <li>预订热线工作时间：9:00-18:00</li>
+    </dl>
+    <!-- tel end -->
+  </div>
+  <!-- logoBar end -->
+
+  <!-- headNav start -->
+  <div class="headNav">
+    <div>
+      <ul class="flex-a">
+        <li class="fa"><a href="index.htm">首 页</a></li>
+        <li class="fa"><a href="cheap.htm">经济型酒店</a></li>
+        <li class="fa"><a href="3star.htm">三星级酒店</a></li>
+        <li class="fa"><a href="4star.htm">四星级酒店</a></li>
+        <li class="fa"><a href="5star.htm">五星级酒店</a></li>
+        <li class="fa"><a href="special.htm">特色客栈</a></li>
+      </ul>
+    </div>
+  </div>
+  <!-- headNav end -->
+<!-- header end -->
+
+<!-- main start -->
+  <!-- slide start -->
+  <div id="slide">
+		<ul>
+			<li><a href=""><img src="img/banner5.png"></a></li>
+			<li><a href=""><img src="img/banner1.png"></a></li>
+			<li><a href=""><img src="img/banner2.png"></a></li>
+			<li><a href=""><img src="img/banner3.png"></a></li>
+			<li><a href=""><img src="img/banner4.png"></a></li>
+			<li><a href=""><img src="img/banner5.png"></a></li>
+			<li><a href=""><img src="img/banner1.png"></a></li>
+		</ul>
+		<ol>
+			<li class="cur"></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ol>
+		<span class="prev">&lt;</span>
+		<span class="next">&gt;</span>
+	</div>
+  <!-- slide end -->
+
+  <!-- hotel start -->
+  <div class="wrapper flex-b m0">
+    <!-- side start -->
+    <div class="side flex-b fy border">
+      <!-- sideimg start -->
+      <div class="fa">
+        <img src="img/f20160331141712166511.jpg" alt="hotel">
+      </div>
+      <!-- sideimg end -->
+
+      <!-- sidelist start -->
+      <div class="sidelist">
+        <h3><a href="#">酒店品牌</a></h3>
+        <ul class="flex-a">
+          <li class="fa">
+            <a href="#" title="张家界皇廷大酒店" target="_blank">
+              皇廷
+            </a>
+          </li>
+          <li class="fa">
+            <a href="#" title="张家界凯天国际大酒店" target="_blank">
+              凯天
+            </a>
+          </li>
+          <li class="fa">
+            <a href="#" title="张家界御笔峰国际大酒店" target="_blank">
+              御笔峰
+            </a>
+          </li>
+          <li class="fa">
+            <a href="#" title="绿色之都主题酒店" target="_blank">
+              绿色之都
+            </a>
+          </li>
+        </ul>
+        <ul class="flex-a">
+          <li class="fa">
+            <a href="#" title="张家界京武铂尔曼酒店 " target="_blank">
+              铂尔曼
+            </a>
+          </li>
+          <li class="fa">
+            <a href="#" title="锦华大酒店 " target="_blank">
+              锦华
+            </a>
+          </li>
+          <li class="fa">
+            <a href="#" title="张家界峰语轩精品客栈 " target="_blank">
+              峰语轩
+            </a>
+          </li>
+          <li class="fa">
+            <a href="#" title="张家界圣多明歌国际酒店" target="_blank">
+              圣多明歌
+            </a>
+          </li>
+        </ul>
+        <ul class="flex-a">
+          <li class="fa">
+            <a href="#" title="张家界青和锦江国际酒店 " target="_blank">
+              锦江国际
+            </a>
+          </li>
+          <li class="fa">
+            <a href="#" title="TOWO上品酒店(张家界店) " target="_blank">
+              TOWO
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- sidelist end -->
+    </div>
+    <!-- side end -->
+
+    <!-- content start -->
+    <div class="content">
+      <!-- contentnav start -->
+      <div class="contentnav flex-b">
+        <ul class="fa flex-b">
+          <li class="fa">武陵源</li>
+          <li class="fa">张家界</li>
+          <li class="fa">慈利</li>
+          <li class="fa">桑植</li>
+        </ul>
+
+        <a href="hotel.htm">更多酒店 &gt;</a>
+      </div>
+      <!-- contentnav end -->
+
+      <!-- contentlist start -->
+      <div class="contentlist">
+        <ul class="flex-b">
+          <li class="big fa">
+            <a href="hotel.htm" target="_blank"><img src="img/f20160331133757183896.jpg" alt="首页5-酒店中间广告" text="首页5-酒店中间广告"></a>
+          </li>
+          <li class="small fa">
+            <a href="hotel.htm" target="_blank" title="张家界皇廷大酒店">
+              <div class="img"><img src="img/d20141223113833170471.jpg" /></div>
+              <div class="name fs14">张家界皇廷大酒店</div>
+              <div class="star s5"></div>
+              <div class="info">
+                <span class="price">&yen;<em>156</em>起</span>
+                <span class="point">武陵源区驼峰路(近武陵源门票站)</span>
+              </div>
+            </a>
+          </li>
+          <li class="small fa">
+            <a href="hotel.htm" target="_blank" title="张家界凯天国际大酒店">
+              <div class="img"><img src="img/d20141223112846156821.jpg" /></div>
+              <div class="name">张家界凯天国际大酒店</div>
+              <div class="star s5"></div>
+              <div class="info">
+                <span class="price">&yen;<em>409</em>起</span>
+                <span class="point">武陵源区驼峰路</span>
+              </div>
+            </a>
+          </li>
+        </ul>
+
+        <ul class="flex-b">
+          <li class="small fa">
+            <a href="hotel.htm" target="_blank" title="张家界凯天国际大酒店">
+              <div class="img"><img src="img/d20160329184846104563.jpg" /></div>
+              <div class="name">张家界凯天国际大酒店</div>
+              <div class="star s5"></div>
+              <div class="info">
+                <span class="price">&yen;<em>409</em>起</span>
+                <span class="point">武陵源区驼峰路</span>
+              </div>
+            </a>
+          </li>
+          <li class="small fa">
+            <a href="hotel.htm" target="_blank" title="张家界皇廷大酒店">
+              <div class="img"><img src="img/d20141223100934118371.jpg" /></div>
+              <div class="name">张家界皇廷大酒店</div>
+              <div class="star s5"></div>
+              <div class="info">
+                <span class="price">&yen;<em>156</em>起</span>
+                <span class="point">武陵源区驼峰路(近武陵源门票站)</span>
+              </div>
+            </a>
+          </li>
+          <li class="small fa">
+            <a href="hotel.htm" target="_blank" title="张家界皇廷大酒店">
+              <div class="img"><img src="img/d20141223094039132761.jpg" /></div>
+              <div class="name">张家界皇廷大酒店</div>
+              <div class="star s5"></div>
+              <div class="info">
+                <span class="price">&yen;<em>156</em>起</span>
+                <span class="point">武陵源区驼峰路(近武陵源门票站)</span>
+              </div>
+            </a>
+          </li>
+          <li class="small fa">
+            <a href="hotel.htm" target="_blank" title="张家界皇廷大酒店">
+              <div class="img"><img src="img/d20160329184848173253.jpg" /></div>
+              <div class="name">张家界皇廷大酒店</div>
+              <div class="star s5"></div>
+              <div class="info">
+                <span class="price">&yen;<em>156</em>起</span>
+                <span class="point">武陵源区驼峰路(近武陵源门票站)</span>
+              </div>
+            </a>
+          </li>
+        </ul>
+        <!--<ul class="flex-b fa fr">
+          <li class="fa">
+            <a href="hotel.htm" target="_blank"><img src="img/f20160331133757183892.jpg" alt="首页5-酒店中间广告" text="首页5-酒店中间广告"></a>
+          </li>
+          <li class="fa">
+            <a href="hotel.htm" target="_blank" title="张家界皇廷大酒店">
+              <div class="img"><img src="img/d20141223113833170471.jpg" /></div>
+              <div class="name">张家界皇廷大酒店</div>
+              <div class="star s5"></div>
+              <div class="info">
+                <span class="price">&yen;<em>156</em>起</span>
+                <span class="point">武陵源区驼峰路(近武陵源门票站)</span>
+              </div>
+            </a>
+          </li>
+          <li class="fa">
+            <a href="hotel.htm" target="_blank" title="张家界凯天国际大酒店">
+              <div class="img"><img src="img/d20141223112846156821.jpg" /></div>
+              <div class="name">张家界凯天国际大酒店</div>
+              <div class="star s5"></div>
+              <div class="info">
+                <span class="price">&yen;<em>409</em>起</span>
+                <span class="point">武陵源区驼峰路</span>
+              </div>
+            </a>
+          </li>
+          <li class="fa">
+            <a href="hotel.htm" target="_blank" title="张家界凯天国际大酒店">
+              <div class="img"><img src="img/d20160329184846104563.jpg" /></div>
+              <div class="name">张家界凯天国际大酒店</div>
+              <div class="star s5"></div>
+              <div class="info">
+                <span class="price">&yen;<em>409</em>起</span>
+                <span class="point">武陵源区驼峰路</span>
+              </div>
+            </a>
+          </li>
+          <li class="fa">
+            <a href="hotel.htm" target="_blank" title="张家界皇廷大酒店">
+              <div class="img"><img src="img/d20141223100934118371.jpg" /></div>
+              <div class="name">张家界皇廷大酒店</div>
+              <div class="star s5"></div>
+              <div class="info">
+                <span class="price">&yen;<em>156</em>起</span>
+                <span class="point">武陵源区驼峰路(近武陵源门票站)</span>
+              </div>
+            </a>
+          </li>
+          <li class="fa">
+            <a href="hotel.htm" target="_blank" title="张家界皇廷大酒店">
+              <div class="img"><img src="img/d20141223094039132761.jpg" /></div>
+              <div class="name">张家界皇廷大酒店</div>
+              <div class="star s5"></div>
+              <div class="info">
+                <span class="price">&yen;<em>156</em>起</span>
+                <span class="point">武陵源区驼峰路(近武陵源门票站)</span>
+              </div>
+            </a>
+          </li>
+          <li class="fa">
+            <a href="hotel.htm" target="_blank" title="张家界皇廷大酒店">
+              <div class="img"><img src="img/d20160329184848173253.jpg" /></div>
+              <div class="name">张家界皇廷大酒店</div>
+              <div class="star s5"></div>
+              <div class="info">
+                <span class="price">&yen;<em>156</em>起</span>
+                <span class="point">武陵源区驼峰路(近武陵源门票站)</span>
+              </div>
+            </a>
+          </li>
+        </ul>-->
+        <!--<ul class="flex-b fa fr">
+          <li class="fa">
+            <a href="hotel.htm" target="_blank"><img src="img/f20160331133757183893.jpg" alt="首页5-酒店中间广告" text="首页5-酒店中间广告"></a>
+          </li>
+          <li class="fa">
+            <a href="hhotel.htm" target="_blank" title="张家界皇廷大酒店">
+              <div class="img"><img src="img/d20141223113833170471.jpg" /></div>
+              <div class="name">张家界皇廷大酒店</div>
+              <div class="star s5"></div>
+              <div class="info">
+                <span class="price">&yen;<em>156</em>起</span>
+                <span class="point">武陵源区驼峰路(近武陵源门票站)</span>
+              </div>
+            </a>
+          </li>
+          <li class="fa">
+            <a href="hotel.htm" target="_blank" title="张家界凯天国际大酒店">
+              <div class="img"><img src="img/d20141223112846156821.jpg" /></div>
+              <div class="name">张家界凯天国际大酒店</div>
+              <div class="star s5"></div>
+              <div class="info">
+                <span class="price">&yen;<em>409</em>起</span>
+                <span class="point">武陵源区驼峰路</span>
+              </div>
+            </a>
+          </li>
+          <li class="fa">
+            <a href="hotel.htm" target="_blank" title="张家界凯天国际大酒店">
+              <div class="img"><img src="img/d20160329184846104563.jpg" /></div>
+              <div class="name">张家界凯天国际大酒店</div>
+              <div class="star s5"></div>
+              <div class="info">
+                <span class="price">&yen;<em>409</em>起</span>
+                <span class="point">武陵源区驼峰路</span>
+              </div>
+            </a>
+          </li>
+          <li class="fa">
+            <a href="hotel.htm" target="_blank" title="张家界皇廷大酒店">
+              <div class="img"><img src="img/d20141223100934118371.jpg" /></div>
+              <div class="name">张家界皇廷大酒店</div>
+              <div class="star s5"></div>
+              <div class="info">
+                <span class="price">&yen;<em>156</em>起</span>
+                <span class="point">武陵源区驼峰路(近武陵源门票站)</span>
+              </div>
+            </a>
+          </li>
+          <li class="fa">
+            <a href="hotel.htm" target="_blank" title="张家界皇廷大酒店">
+              <div class="img"><img src="img/d20141223094039132761.jpg" /></div>
+              <div class="name">张家界皇廷大酒店</div>
+              <div class="star s5"></div>
+              <div class="info">
+                <span class="price">&yen;<em>156</em>起</span>
+                <span class="point">武陵源区驼峰路(近武陵源门票站)</span>
+              </div>
+            </a>
+          </li>
+          <li class="fa">
+            <a href="hotel.htm" target="_blank" title="张家界皇廷大酒店">
+              <div class="img"><img src="img/d20160329184848173253.jpg" /></div>
+              <div class="name">张家界皇廷大酒店</div>
+              <div class="star s5"></div>
+              <div class="info">
+                <span class="price">&yen;<em>156</em>起</span>
+                <span class="point">武陵源区驼峰路(近武陵源门票站)</span>
+              </div>
+            </a>
+          </li>
+        </ul>
+        <ul class="flex-b fa fr">
+          <li class="fa">
+            <a href="hotel.htm" target="_blank"><img src="img/f20160331133757183894.jpg" alt="首页5-酒店中间广告" text="首页5-酒店中间广告"></a>
+          </li>
+          <li class="fa">
+            <a href="hhotel.htm" target="_blank" title="张家界皇廷大酒店">
+              <div class="img"><img src="img/d20141223113833170471.jpg" /></div>
+              <div class="name">张家界皇廷大酒店</div>
+              <div class="star s5"></div>
+              <div class="info">
+                <span class="price">&yen;<em>156</em>起</span>
+                <span class="point">武陵源区驼峰路(近武陵源门票站)</span>
+              </div>
+            </a>
+          </li>
+          <li class="fa">
+            <a href="hotel.htm" target="_blank" title="张家界凯天国际大酒店">
+              <div class="img"><img src="img/d20141223112846156821.jpg" /></div>
+              <div class="name">张家界凯天国际大酒店</div>
+              <div class="star s5"></div>
+              <div class="info">
+                <span class="price">&yen;<em>409</em>起</span>
+                <span class="point">武陵源区驼峰路</span>
+              </div>
+            </a>
+          </li>
+          <li class="fa">
+            <a href="hotel.htm" target="_blank" title="张家界凯天国际大酒店">
+              <div class="img"><img src="img/d20160329184846104563.jpg" /></div>
+              <div class="name">张家界凯天国际大酒店</div>
+              <div class="star s5"></div>
+              <div class="info">
+                <span class="price">&yen;<em>409</em>起</span>
+                <span class="point">武陵源区驼峰路</span>
+              </div>
+            </a>
+          </li>
+          <li class="fa">
+            <a href="hotel.htm" target="_blank" title="张家界皇廷大酒店">
+              <div class="img"><img src="img/d20141223100934118371.jpg" /></div>
+              <div class="name">张家界皇廷大酒店</div>
+              <div class="star s5"></div>
+              <div class="info">
+                <span class="price">&yen;<em>156</em>起</span>
+                <span class="point">武陵源区驼峰路(近武陵源门票站)</span>
+              </div>
+            </a>
+          </li>
+          <li class="fa">
+            <a href="hotel.htm" target="_blank" title="张家界皇廷大酒店">
+              <div class="img"><img src="img/d20141223094039132761.jpg" /></div>
+              <div class="name">张家界皇廷大酒店</div>
+              <div class="star s5"></div>
+              <div class="info">
+                <span class="price">&yen;<em>156</em>起</span>
+                <span class="point">武陵源区驼峰路(近武陵源门票站)</span>
+              </div>
+            </a>
+          </li>
+          <li class="fa">
+            <a href="hotel.htm" target="_blank" title="张家界皇廷大酒店">
+              <div class="img"><img src="img/d20160329184848173253.jpg" /></div>
+              <div class="name">张家界皇廷大酒店</div>
+              <div class="star s5"></div>
+              <div class="info">
+                <span class="price">&yen;<em>156</em>起</span>
+                <span class="point">武陵源区驼峰路(近武陵源门票站)</span>
+              </div>
+            </a>
+          </li>
+        </ul>-->
+      </div>
+      <!-- contentlist end -->
+    </div>
+    <!-- content end -->
+  </div>
+  <!-- hotel end -->
+
+  <!-- landscape start -->
+  <!-- landscape end -->
+
+<!-- main end -->
+
+<!-- footer start -->
+  <!-- footbar start -->
+  <!-- footbar end -->
+
+  <!-- contact start -->
+  <!-- contact end -->
+
+  <!-- legalize start -->
+  <!-- legalize end -->
+
+  <!-- aboutus start -->
+  <!-- aboutus end -->
+
+  <!-- copyright start -->
+  <!-- copyright end -->
+
+  <!-- friendlink start -->
+  <!-- friendlink end -->
+<!-- footer end -->
+  <script src="js/index.js"></script>
+</body>
+</html>

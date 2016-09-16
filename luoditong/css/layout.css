@@ -1,0 +1,73 @@
+/* 布局 */
+
+.flex-a {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.flex-b {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.fx {
+  flex-direction: row;
+}
+
+.fy {
+  flex-direction: column;
+}
+
+.fr {
+  flex-wrap: wrap;
+}
+
+.fa {
+  flex: auto;
+}
+
+.f1 {
+  flex-grow: 1;
+}
+
+.f2 {
+  flex-grow: 2;
+}
+
+.f4 {
+  flex-grow: 4;
+}
+
+.m0 {
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+/* 颜色 */
+
+.gray1 {
+  color: #333;
+}
+
+.gray2 {
+  color: #666;
+}
+
+.gray3 {
+  color: #b8b8b8;
+}
+
+
+/* 样式 */
+
+.border {
+  border: 1px solid #e4e4e4;
+}
+
+/* 字体大小 */
+fs14 {
+  font-size: 14px;
+}
